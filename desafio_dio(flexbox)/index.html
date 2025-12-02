@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone - Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="left-header">
+            <span class="menu">☰</span>
+            <h1 class="logo">MyTube</h1>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar">
+            <button>🔍</button>
+        </div>
+
+        <div class="right-header">
+            <span>⬆️</span>
+            <span>🔔</span>
+            <span>👤</span>
+        </div>
+    </header>
+
+    <!-- CONTAINER GERAL -->
+    <div class="main-container">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <a href="#">🏠 Início</a>
+            <a href="#">🔥 Em alta</a>
+            <a href="#">🎵 Música</a>
+            <a href="#">🎮 Games</a>
+            <a href="#">📰 Notícias</a>
+            <a href="#">📚 Cursos</a>
+        </aside>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="videos-area">
+
+            <!-- VIDEO CARD -->
+            <div class="video-card">
+                <img src="youtube2.jpg" alt="">
+                <div class="video-info">
+                    <div class="thumb"></div>
+                    <div>
+                        <h3>Aprendendo Flexbox</h3>
+                        <p>DIO • 500 mil visualizações</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <img src="youtube.webp" alt="">
+                <div class="video-info">
+                    <div class="thumb"></div>
+                    <div>
+                        <h3>Como usar display: flex</h3>
+                        <p>Canal CSS PRO • 900 mil visualizações</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <img src="hqdefault.jpg" alt="">
+                <div class="video-info">
+                    <div class="thumb"></div>
+                    <div>
+                        <h3>Clone do YouTube com Flexbox</h3>
+                        <p>Seu Portfólio • agora mesmo</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>
